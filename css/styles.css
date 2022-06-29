@@ -81,3 +81,8 @@ list-style: none;
     color: var(--white-color);
     background-color: var(--accent-color);
 }*
+
+/* link on current page = accent color*/
+.site-nav .link.current {
+    color: var(--accent-color);
+}
