@@ -17,6 +17,8 @@
 .page {
     background-color: #E5E5E5;
     color: var(--primary-text-color);
+
+    font-family: roboto, sans-serif;
 }
 
 /* list without markers */
@@ -86,3 +88,4 @@ list-style: none;
 .site-nav .link.current {
     color: var(--accent-color);
 }
+
