@@ -21,6 +21,18 @@
     font-family: roboto, sans-serif;
 }
 
+/* logo WebStudio */
+.logo {
+    text-decoration: none;
+    font-family: raleway, sans-serif;
+    color: var(--white-color);
+}
+
+.logo > span{
+    color: var(--accent-color);
+}
+
+
 /* list without markers */
 .list {
 list-style: none;
