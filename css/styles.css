@@ -34,7 +34,6 @@
 
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
 }
 
 .logo > span{
@@ -52,7 +51,6 @@ list-style: none;
 .site-nav,
 .contact {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
@@ -88,20 +86,17 @@ list-style: none;
         line-height: 1.36;
         text-align: center;
         letter-spacing: 0.06em;
-        text-transform: uppercase;
 }
 
-.section {
-color: var(--title-text-color);
-}
+
 /*title of section*/
 .section-title {
-    
+    color: var(--title-text-color);
+
         font-weight: 700;
         font-size: 36px;
         line-height: 1.17;
         text-align: center;
-        letter-spacing: 0.03em;
 }
 
 /* title of excellence*/
@@ -109,9 +104,22 @@ color: var(--title-text-color);
 
         font-size: 14px;
         line-height: 1.14;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
+       
 }
+/* title of team */
+.team  {
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+}
+
+/* names of team */
+.name {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
 
 /* button */
 .button {
