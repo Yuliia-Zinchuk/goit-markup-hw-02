@@ -19,6 +19,11 @@
     color: var(--primary-text-color);
 
     font-family: roboto, sans-serif;
+
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
 }
 
 /* logo WebStudio */
@@ -26,6 +31,10 @@
     text-decoration: none;
     font-family: raleway, sans-serif;
     color: var(--white-color);
+
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
 .logo > span{
@@ -38,14 +47,19 @@
 list-style: none;
 }
 
+
+/* site-nav and contact - header*/
+.site-nav,
+.contact {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
 /* site nav   a:link: none;*/
 .site-nav .link {
     color: var(--title-text-color);
-}
-
-/*contact - mail and phone*/
-.contact .link {
-    color: var(--primary-text-color);
 }
 
 /*hover and focus site-nav*/
@@ -54,20 +68,55 @@ list-style: none;
     color: var(--accent-color);
 }
 
+/*contact - mail and phone*/
+.contact .link {
+    color: var(--primary-text-color);
+}
+
 /*hover and focus contact*/
 .contact .link:hover,
 .contact .link:focus {
     color: var(--accent-color);
 }
 
+/* hero */
+.hero-title {
+    color: var(--white-color);
+        
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+}
+
+.section {
+color: var(--title-text-color);
+}
 /*title of section*/
 .section-title {
-    color: var(--title-text-color);
+    
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+
+/* title of excellence*/
+.section-excellence {
+
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
 }
 
 /* button */
 .button {
-    font-size: 24px;
+    font-family: inherit;
+    /*font-size: 24px;*/
 }
 
 /* button */
