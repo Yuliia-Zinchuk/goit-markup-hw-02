@@ -15,7 +15,7 @@
 }
 
 .page {
-    background-color: #E5E5E5;
+    background-color: var(--white-color);
     color: var(--primary-text-color);
 
     font-family: roboto, sans-serif;
@@ -32,6 +32,7 @@
     font-family: raleway, sans-serif;
     color: var(--white-color);
 
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
 }
@@ -51,12 +52,13 @@ list-style: none;
 .site-nav,
 .contact {
     font-weight: 500;
-    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 
+
 /* site nav   a:link: none;*/
 .site-nav .link {
+    text-decoration: none;
     color: var(--title-text-color);
 }
 
@@ -68,6 +70,7 @@ list-style: none;
 
 /*contact - mail and phone*/
 .contact .link {
+    text-decoration: none;
     color: var(--primary-text-color);
 }
 
@@ -78,6 +81,9 @@ list-style: none;
 }
 
 /* hero */
+.hero {
+    background-color: #2F303A;;
+}
 .hero-title {
     color: var(--white-color);
         
@@ -86,6 +92,7 @@ list-style: none;
         line-height: 1.36;
         text-align: center;
         letter-spacing: 0.06em;
+        text-transform: uppercase;
 }
 
 
@@ -99,15 +106,21 @@ list-style: none;
         text-align: center;
 }
 
-/* title of excellence*/
-.section-excellence {
-
+/* advant */
+.advant-title {
+    color: var(--title-text-color);
+    font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
-       
+        text-transform: uppercase;
 }
-/* title of team */
+
+ .colorteam {
+    background-color: var(--secondary-bg-color);
+}
+/* job title of team */
 .team  {
+    
         font-size: 16px;
         line-height: 1.19;
         text-align: center;
@@ -117,6 +130,7 @@ list-style: none;
 .name {
     font-weight: 500;
     font-size: 16px;
+    line-height: 1.19;
 }
 
 
@@ -124,11 +138,15 @@ list-style: none;
 /* button */
 .button {
     font-family: inherit;
-    /*font-size: 24px;*/
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
 }
 
 /* button */
 .button.hero{
+    font-family: inherit;
     color: var(--white-color);
     background-color: var(--accent-color);
 }
@@ -137,6 +155,12 @@ list-style: none;
 .button.portfolio{
     color: var(--title-text-color);
     background-color: var(--secondary-bg-color);
+        font-family: inherit;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em;
 }
 
 
@@ -156,5 +180,38 @@ list-style: none;
 /* link on current page = accent color*/
 .site-nav .link.current {
     color: var(--accent-color);
+}
+
+/* footer contacts */
+.footer {
+    background-color: #2F303A;;
+    text-decoration: none;
+    font-style: normal; 
+}
+
+.footer-link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);;
+}
+
+.address {
+    color: var(--white-color);
+}
+
+
+/* portfolio */
+.filter-link {
+    text-decoration: none;
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+.filter-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
 
