@@ -12,6 +12,7 @@
     --primary-bg-color: #E5E5E5;
     --secondary-bg-color: #F5F4FA;
     --white-color: #FFFFFF;
+    --black-color: #000000;
 }
 
 .body {
@@ -45,14 +46,14 @@
 .logo {
     text-decoration: none;
     font-family: raleway, sans-serif;
-    color: var(--white-color);
+    color: var(--black-color);
 
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
 }
 
-.logo > span{
+.accent {
     color: var(--accent-color);
 }
 
@@ -201,6 +202,10 @@ list-style: none;
     background-color: #2F303A;;
     text-decoration: none;
     font-style: normal; 
+}
+
+.footer .logo {
+    color: var(--white-color);
 }
 
 .footer-link {
