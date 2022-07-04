@@ -26,6 +26,11 @@
         letter-spacing: 0.03em;
 }
 
+/* invisibility of title */
+.title-invisibility {
+    visibility: hidden;
+}
+
 /* logo WebStudio */
 .logo {
     text-decoration: none;
