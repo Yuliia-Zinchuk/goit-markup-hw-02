@@ -171,11 +171,10 @@ list-style: none;
     background-color: var(--accent-color);
 }
 
-/* on example in different buttons 
-.button.primary {
-    color: var(--white-color);
-    background-color: var(--accent-color);
-}*
+/* button pointer*/
+.pointer {
+    cursor: pointer;
+}
 
 /* link on current page = accent color*/
 .site-nav .link.current {
@@ -198,6 +197,12 @@ list-style: none;
     color: var(--white-color);
 }
 
+.address:hover,
+.address:focus,
+.footer-link:hover,
+.footer-link:focus {
+    color: var(--accent-color);
+}
 
 /* portfolio */
 .filter-link {
