@@ -134,17 +134,27 @@ list-style: none;
 /* job title of team */
 .team  {
     
-        font-size: 16px;
-        line-height: 1.19;
-        text-align: center;
+    text-align: center;
 }
 
-/* names of team */
+.team-title {
+    color: var(--title-text-color);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+}
+
+.team-job {
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+/* names of team 
 .name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-}
+}*/
 
 
 
