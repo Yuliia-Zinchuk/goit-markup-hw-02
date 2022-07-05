@@ -230,8 +230,6 @@ list-style: none;
     color: var(--white-color);
 }
 
-.address:hover,
-.address:focus,
 .footer-link:hover,
 .footer-link:focus {
     color: var(--accent-color);
